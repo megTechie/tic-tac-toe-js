@@ -1,0 +1,51 @@
+<!-- npx tailwindcss -i TicTacToe/src/input.css -o TicTacToe/src/output.css --watch -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tic-Tac-Toe</title>
+	<link rel="stylesheet" href="./src/output.css">
+</head>
+<body class = "bg-[#548687] text-slate-100 text-center">
+
+  <div class="hidden flex flex-col justify-center items-center gap-16 h-[100vmin]" id = "msg-container">
+    <p id="msg" class="text-[#ffffc7] text-[5vmin] mb-4"></p>
+
+    <button id="new-btn" class="p-[1rem] text-[1.25rem] bg-[#191913] text-[#fff] rounded-[1rem]">
+      New Game
+    </button>
+
+  </div>
+    
+    <main class="my-13">
+      <!-- heading -->
+      <h1 class = "text-4xl font-mono font-semibold">Tic Tac Toe</h1>
+
+      <!-- box -->
+      <div class="h-[70vh] flex justify-center items-center">
+        <div class="h-[60vmin] w-[60vmin] flex flex-wrap justify-center items-center gap-[1.5vmin]">
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+        </div>
+      </div>
+
+      <!-- RESET BUTTON -->
+      <button id="reset-btn" class="p-[1rem] font-[1.25rem] bg-[#191913] text-[#fff] rounded-[1rem] ">
+        Reset Game
+      </button>
+
+
+
+    </main>
+    <script src="script.js"></script>
+  </body>
+
+</html>
