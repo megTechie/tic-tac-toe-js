@@ -16,7 +16,6 @@ This project allows two players to play Tic Tac Toe in the browser with a clean 
 ## Technologies Used
 
 * HTML
-* CSS
 * Tailwind CSS
 * JavaScript
 
@@ -79,22 +78,6 @@ The game checks the following winning patterns:
 * After every move, the game checks for a winner.
 * If a player wins, all boxes are disabled.
 * Reset and New Game buttons restart the game.
-
-## Screenshot
-
-You can add your project screenshot here:
-
-```md
-![Tic Tac Toe Screenshot](screenshot.png)
-```
-
-## Future Improvements
-
-* Add draw match detection
-* Add score tracking
-* Add sound effects
-* Add single-player mode with computer
-* Improve UI animations
 
 ## Author
 
